@@ -7,13 +7,14 @@
 
 $paths = [
     __DIR__ . '/../vendor/autoload.php',
-    __DIR__ . '/../../../autoload.php',
+    __DIR__ . '/../../vendor/autoload.php',
+    __DIR__ . '/../../../vendor/autoload.php',
+
 ];
 
 foreach ($paths as $path) {
     if (file_exists($path)) {
         require_once $path;
-
         return;
     }
 }
