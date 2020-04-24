@@ -1,0 +1,30 @@
+{
+    "name": "indie/utility",
+    "description": "Utility IMF Data",
+    "type": "library",
+    "require": {
+        "php": "^7.4",
+        "phpoffice/phpspreadsheet": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Indra Gunanda",
+            "email": "indra@imceria.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Indie\\Utility\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Indie\\Utility\\": "tests/"
+        }
+    }
+}
